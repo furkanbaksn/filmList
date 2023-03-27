@@ -1,0 +1,50 @@
+header{
+  background-color: #008f6b;
+}
+header .inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+header .nav-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header .nav-links li {
+  display: inline-block;
+  
+  margin-right: 30px;
+}
+header .nav-links li:last-child {
+  margin-right: 0;
+}
+header .brand a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: bisque;
+  text-decoration: none;
+}
+.result-card .info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 2rem;
+}
+.result-card .info .title {
+  font-size: 2rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+.result-card .info .release-date {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+.result-card .title.release-date{
+  margin: 50%;
+}
+
